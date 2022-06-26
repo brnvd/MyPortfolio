@@ -1,0 +1,47 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.main-block{
+    margin: 100px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main-info{
+    width: 400px;
+}
+.main-info h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.main-photo{
+    width: 400px;
+}
+.photo{
+    background-image: url('/images/2017-04-11-11-13-48.jpg');
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hire-main{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    border: .5px solid #000;
+    transition: all .3s ease;
+}
+.hire-main:hover{
+    background-color: transparent;
+    color: #000;
+    border: .5px solid #000;
+    transition: all .3s ease;
+}

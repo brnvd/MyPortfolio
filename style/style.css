@@ -1,0 +1,15 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(243,186,227);
+    background: linear-gradient(180deg, rgba(243,186,227,1) 0%, rgba(156,186,237,1) 100%);
+    width: 100vw;
+    overflow-x: hidden;
+}
+a,button,input{
+    cursor: pointer;
+}
