@@ -15,18 +15,27 @@
 .main-info h1{
     font-size: 40px;
     font-weight: bold;
-    padding-bottom: 15px;
+    padding-bottom: 40px;
+    transform: translate(0px,40px);
+}
+.main-info p{
+    transform: translate(0px,30px);
 }
 .main-photo{
     width: 400px;
 }
 .photo{
-    background-image: url('/images/2017-04-11-11-13-48.jpg');
+    background-image: url('/images/IMG_20210901_154316_162-PhotoRoom2.png');
     background-size: cover;
     width: 350px;
-    height: 500px;
+    height: 700px;
     background-repeat: no-repeat;
     background-position: center;
+    transform: translate(300px,-200px);
+}
+.right{
+    float: right;
+    padding: 0 20px 20px 0;
 }
 .hire-main{
     margin-top: 20px;
@@ -38,8 +47,19 @@
     color: #fff;
     border: .5px solid #000;
     transition: all .3s ease;
+    transform: translate(0px,30px);
 }
 .hire-main:hover{
+    background-color: transparent;
+    color: #000;
+    border: .5px solid #000;
+    transition: all .3s ease;
+}
+.logo-header{
+    margin-top: -15px;
+}
+
+.nav-header:hover{
     background-color: transparent;
     color: #000;
     border: .5px solid #000;

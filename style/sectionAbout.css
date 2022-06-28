@@ -1,4 +1,27 @@
 .about{
+    transform: translate(-90px,200px);
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
+}
+.about-block{
+    margin: 100px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about-photo{
+    width: 400px;
+    float: left;
+}
+.photo{
+    float: left;
+}
+.about-text{
+    float: right;
+}
+.about-text h1{
+    transform: translate(0px,-30px);
+}
+.about-text p{
+    line-height: 1.5;
 }

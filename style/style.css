@@ -2,7 +2,8 @@
     list-style: none;
     text-decoration: none;
     margin: 0;
-    padding: 0;
+    padding: 0; 
+    font-family: 'Montserrat', sans-serif;
 }
 body{
     background: rgb(243,186,227);
